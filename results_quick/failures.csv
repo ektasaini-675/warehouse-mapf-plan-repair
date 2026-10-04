@@ -1,0 +1,11 @@
+setting,runs,completed,survivors_completed,agents_done,avg_changed,collisions,reasons
+"baseline (20 agents, 3% obstacles)",5,5,5,1.0,1.36,0,{}
+"very high agent density (12x12, 20 agents)",5,4,4,0.99,1.93,0,{'initial_plan': 1}
+"very high agent count (35 agents, 20x20)",5,3,3,0.99,1.69,0,{'stuck': 2}
+narrow 1-wide aisles (20 agents),5,0,0,0.89,1.44,0,"{'stuck': 7, 'initial_plan': 4}"
+very high obstacle density (12%),5,4,4,0.99,1.19,0,{'stuck': 1}
+shared delivery stations (only 3),5,0,0,0.17,0.8,0,"{'initial_plan': 61, 'stuck': 1}"
+permanent breakdowns (3 robots),5,0,5,0.87,2.07,0,{'permanent_breakdown': 10}
+many simultaneous emergencies (10),5,4,4,0.99,0.97,0,{'stuck': 1}
+"no negotiation radius (r=0), 8% obstacles",5,3,3,0.97,1.24,0,{'stuck': 2}
+"small negotiation radius (r=2), 8% obstacles",5,3,3,0.97,1.25,0,{'stuck': 2}

@@ -1,0 +1,6 @@
+# Core simulation + GIF/plots
+matplotlib>=3.5
+pillow>=9.0
+# PDF report (make_report.py)
+reportlab>=3.6
+# NOTE: the interactive HTML viewer (demo.html) needs NO extra package; it opens in any web browser.

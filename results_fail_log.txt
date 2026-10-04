@@ -1,0 +1,12 @@
+
+FAILURE ANALYSIS
+{'setting': 'baseline (20 agents, 3% obstacles)', 'runs': 10, 'completed': 10, 'survivors_completed': 10, 'agents_done': 1.0, 'avg_changed': 1.35, 'collisions': 0, 'reasons': {}}
+{'setting': 'very high agent density (12x12, 20 agents)', 'runs': 10, 'completed': 8, 'survivors_completed': 8, 'agents_done': 0.94, 'avg_changed': 1.82, 'collisions': 0, 'reasons': {'initial_plan': 2, 'stuck': 10}}
+{'setting': 'very high agent count (35 agents, 20x20)', 'runs': 10, 'completed': 8, 'survivors_completed': 8, 'agents_done': 0.99, 'avg_changed': 1.62, 'collisions': 0, 'reasons': {'stuck': 2}}
+{'setting': 'narrow 1-wide aisles (20 agents)', 'runs': 10, 'completed': 4, 'survivors_completed': 4, 'agents_done': 0.94, 'avg_changed': 1.45, 'collisions': 0, 'reasons': {'stuck': 7, 'initial_plan': 5}}
+{'setting': 'very high obstacle density (12%)', 'runs': 10, 'completed': 9, 'survivors_completed': 9, 'agents_done': 0.99, 'avg_changed': 1.19, 'collisions': 0, 'reasons': {'stuck': 1}}
+{'setting': 'shared delivery stations (only 3)', 'runs': 10, 'completed': 0, 'survivors_completed': 0, 'agents_done': 0.16, 'avg_changed': 0.6, 'collisions': 0, 'reasons': {'initial_plan': 121, 'stuck': 5}}
+{'setting': 'permanent breakdowns (3 robots)', 'runs': 10, 'completed': 0, 'survivors_completed': 8, 'agents_done': 0.85, 'avg_changed': 2.29, 'collisions': 0, 'reasons': {'permanent_breakdown': 20, 'stuck': 2}}
+{'setting': 'many simultaneous emergencies (10)', 'runs': 10, 'completed': 9, 'survivors_completed': 9, 'agents_done': 0.99, 'avg_changed': 0.96, 'collisions': 0, 'reasons': {'stuck': 1}}
+{'setting': 'no negotiation radius (r=0), 8% obstacles', 'runs': 10, 'completed': 8, 'survivors_completed': 8, 'agents_done': 0.99, 'avg_changed': 1.25, 'collisions': 0, 'reasons': {'stuck': 2}}
+{'setting': 'small negotiation radius (r=2), 8% obstacles', 'runs': 10, 'completed': 8, 'survivors_completed': 8, 'agents_done': 0.99, 'avg_changed': 1.24, 'collisions': 0, 'reasons': {'stuck': 2}}
